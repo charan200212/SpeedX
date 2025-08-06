@@ -1,0 +1,24 @@
+import java.applet.Applet;
+import java.awt.*;
+public class App1 extends Applet
+{
+	public void init()
+	{
+		setBackground(Color.RED);
+		setForeground(Color.yellow);
+	}
+	public void paint(Graphics g)
+	{
+		g.drawString("1st Applet Program",20,50);
+	}
+}
+
+<html>
+<head>
+<title>Applet Program</title>
+</head>
+<body>
+<applet code="App1.class" width="300" height="400">
+</applet>
+</body>
+</html>
